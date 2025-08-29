@@ -9,10 +9,10 @@ body {
 }
 
 .container {
-    background: #fff;
+    background: #f5c4c4;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), alpha);
+    box-shadow: 0 4px 10px rgba(rgb(220, 85, 85), rgb(250, 0, 0), rgb(242, 205, 205), alpha);
     text-align: center;
     width: 300px;
 }
@@ -26,7 +26,7 @@ input[type="number"] {
 }
 
 button:hover {
-    background: #0056b3;
+    background: #b30051;
 }
 
 .result {
