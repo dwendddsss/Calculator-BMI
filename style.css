@@ -17,3 +17,11 @@ body {
     width: 300px;
 }
 
+input[type="number"] {
+    width: 80%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
