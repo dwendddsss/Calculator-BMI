@@ -14,3 +14,5 @@ if (isNaN(weight) || isNaN (height) || weight <= 0 || height <= 0) {
     return;
 }
 
+const bmi = weight / ((height / 100) ** 2);
+
