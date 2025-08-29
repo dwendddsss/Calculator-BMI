@@ -16,3 +16,14 @@ if (isNaN(weight) || isNaN (height) || weight <= 0 || height <= 0) {
 
 const bmi = weight / ((height / 100) ** 2);
 
+let category = "";
+if (bmi < 18,49){
+    category = "Berat Badan Kurang";
+} else if (bmi < 25){
+    category = "Berat Badan Normal";
+} else if (bmi < 30) {
+    category = "Kelebihan Berat Badan";
+} else {
+    category = "Obesitas";
+}
+
