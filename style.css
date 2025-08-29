@@ -25,3 +25,12 @@ input[type="number"] {
     border: 1px solid #ccc;
 }
 
+button:hover {
+    background: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+    white-space: pre-line;
+}
