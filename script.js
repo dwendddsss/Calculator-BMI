@@ -9,3 +9,8 @@ function calculateBtn() {
 
 }
 
+if (isNaN(weight) || isNaN (height) || weight <= 0 || height <= 0) {
+    resultDiv.innerText = "Harap masukkan Berat dan Tinggi badan dengan benar!";
+    return;
+}
+
