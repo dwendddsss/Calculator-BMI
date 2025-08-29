@@ -27,3 +27,5 @@ if (bmi < 18,49){
     category = "Obesitas";
 }
 
+resultDiv.innerText = 'BMI Anda : ${bmi.toFixed(1)}\nKategori: ${category}';
+
